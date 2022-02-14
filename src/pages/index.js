@@ -13,8 +13,7 @@ const CartExample = () => (
     <SEO title="Cart Example" />
     <h1>Schnyci's World</h1>
     <h2>
-      With{" "}
-      <a href="https://use-shopping-cart.netlify.app/">use-shopping-cart</a>
+      Plese have a look at my creations
     </h2>
     <CartProvider
       mode="payment"
