@@ -11,7 +11,7 @@ import { CartProvider } from "use-shopping-cart"
 const CartExample = () => (
   <Layout>
     <SEO title="Cart Example" />
-    <h1>Checkout with cart example</h1>
+    <h1>Schnyci's World</h1>
     <h2>
       With{" "}
       <a href="https://use-shopping-cart.netlify.app/">use-shopping-cart</a>
@@ -20,8 +20,8 @@ const CartExample = () => (
       mode="payment"
       cartMode="client-only"
       stripe={process.env.GATSBY_STRIPE_PUBLISHABLE_KEY}
-      successUrl={`${window.location.origin}/page-2/`}
-      cancelUrl={`${window.location.origin}/`}
+      successUrl={`https://janmain.gatsbyjs.io/`}
+      cancelUrl={`https://janmain.gatsbyjs.io/`}
       currency="CHF"
       allowedCountries={["US", "GB", "CA", "CH"]}
       billingAddressCollection={true}
