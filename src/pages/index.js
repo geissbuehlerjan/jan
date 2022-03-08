@@ -13,7 +13,7 @@ const CartExample = () => (
     <SEO title="Cart Example" />
     <h1>Schnyci's World</h1>
     <h2>
-      Plese have a look at my creations
+      Secret platform for unique products
     </h2>
     <CartProvider
       mode="payment"
